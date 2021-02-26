@@ -37,6 +37,6 @@ public class Converter {
         expected = 2100;
         out = Converter.dollarToRubles(in);
         passed = expected == out;
-        System.out.println("35 dollar are " + expected + " rubles. Test result: " + passed);
+        System.out.println("35 dollar are " + expected + " rubles. Test result : " + passed);
     }
 }
